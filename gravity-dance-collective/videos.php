@@ -57,6 +57,20 @@
 				<div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8">
 					<div class="videoWrapper">
     <!-- Copy & Pasted from YouTube -->
+					<iframe src="https://www.youtube.com/embed/videoseries?list=PLxvA0wJoecIYh83oIDpMPfjBggbgwaK0n" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="Col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<h3 style="font-family:Josefin Sans" font size="12px">Dazzle! | Showcase 2016</h3>
+						<p>See Gravity Dance Collective's 2016 winter showcase highlighting a variety of dance styles.  
+						</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8">
+					<div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
 					<iframe src="https://www.youtube.com/embed/yEmlhJEW-18?rel=0" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>

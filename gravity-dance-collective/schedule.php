@@ -30,62 +30,85 @@
 	</header>
 		<div class="big-color-band"></div>
 <!-- TWO COLUMN SECTION -->
-	<!-- SCHEDULE DETAIL -->
+	<!-- ADULT SCHEDULE DETAIL -->
 	 <div id="content">
 	 	<div class="container">
 	 		<div class="center">
 				<div class="row">
 						<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1>Preteen, Teen, and Adult Schedule</h1>
+					<h1>Preteen, Teen, and Adult Dance Schedule</h1>
 						</div>
 				</div>
 				<div class="row">
 					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<!--<h3 class="schedule-header">Please note that the studio is CLOSED for Summer Break July 3 - 17.</h3> -->
-					<p><a href="https://www.facebook.com/Gravity-Dance-Collective-476083599169567/?fref=ts"target="blank"><strong>FOLLOW US ON FACEBOOK</strong></a> FOR THE MOST UP-TO-DATE INFORMATION!
-					</p>
+					<!-- <h3 class="schedule-header">Please note that we have an updated schedule for 2017!</h3>
+					<!-- <p><a href="https://www.facebook.com/Gravity-Dance-Collective-476083599169567/?fref=ts"target="blank"><strong>FOLLOW US ON FACEBOOK</strong></a> FOR THE MOST UP-TO-DATE INFORMATION!
+					</p> -->
 					</div>
 				</div>
-			</div>
 			<div>
 				<br>
 			<div class="row">
-				<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6">
-						<h3>Monday</h3>
-					<p class="schedule">5:30-6:30pm Adult Intro to Break Dancing with Joe
-						<br>6:30-7:30pm Adult Beginner Hip Hop with Darryl (starts July 18th)
-						<br>7:30-8:30pm Adult Intermediate Hip Hop with Darryl
-						<br>8:30-9:30pm Adult Advanced Hip Hop/Performing Group with Darryl
+				<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3>Mondays</h3>
+					<p class="schedule">5:30-6:30pm Adult Beginner Break Dancing with Joe
+						<br>6:30-7:30pm Adult Beginner Hip Hop (Urban Femme Style) with Darryl 
+						<br>7:30-8:30pm Adult Intermediate Hip Hop (Urban Femme Style) with Darryl
+						<br>8:30-9:30pm Adult Advanced Hip Hop/Performance Group with Darryl
+					</p> 	
+						<h3>Tuesdays</h3>
+					<p class="schedule">6:30-7:45pm Adult Intermediate Ballet/Pre-Pointe Work with Carolee 
+						<br>7:45-8:45pm Adult Jazz Collective (Jazz/Contemporary/Lyrical) with Veronica
 					</p> 
-						<h3>Tuesday</h3>
-					<p class="schedule">5:00-6:30pm Teen Jazz Collective ages 11-17 with Veronica
-						<br>6:30-7:30pm Adult Intermediate/ Advanced Ballet with Carolee 
-						<br>7:30-8:30pm Adult Jazz Collective with Veronica
+						<h3>Wednesdays</h3>
+					<p class="schedule">7:30-8:30pm ROTATING SESSION - <strong>SEE SESSIONS SCHEDULE BELOW</strong>
 					</p>	 
-						<h3>Wednesday</h3>
-					<p class="schedule">4:30-5:30pm Latin Dancing ages 7-17 with Julio
-						<br>5:30-7:30pm LEM Technique and Rehearsal (CLOSED CLASS)
-						<br>7:30-8:30pm Six week Shimmy Belly Dance session (runs September 7th - October 12th)
+						<h3>Thursdays</h3>
+					<p class="schedule">6:30-7:30pm Adult Beginner Ballet with Carolee 
+						<br>7:30-8:30pm ROTATING SESSION - <strong>SEE SESSIONS SCHEDULE BELOW</strong>
 					</p>	 
-						<h3>Thursday</h3>
-					<p class="schedule">5:00-6:30pm Junior Jazz Collective ages 6-10 with Nicole
-						<br>6:30-7:30pm Adult Ballet for Beginners with Carolee 
-						<br>7:30-8:30pm Adult Tap with Dani
-					</p>	 
-						<h3>Friday</h3>
+						<h3>Fridays</h3>
 					<p class="schedule">Available for community classes and event rentals.
 						<br><strong><a href="contact-us.php">Contact the Studio</a></strong> for rental information.
 					</p>	 
 				</div>
-    <!-- Copy & Pasted from iClassPro -->
+				</div>
+			</div>
+		</div>
+
+    <!-- Copy & Pasted from iClassPro 
     			<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6">
     				<h3>Click below to <strong>visit our portal</strong> and register for classes-</h3>
- 					<!--iClass Pro buttons -->
+ 					<!--iClass Pro buttons
     				<a href="https://www.iclassprov2.com/parentportal/gravitydancecollective/classes" target="_blank"> <img style="width: 173px; height: 35px; border:0;" alt="Member Login" src="http://www.iclasspro.com/images/ClassSchedules.png" /></a>
 					<a href="https://www.iclassprov2.com/parentportal/gravitydancecollective" target="_blank"> <img style="width: 173px; height: 35px; border:0;" alt="Member Login" src="http://www.iclasspro.com/images/ParentLogin.png" /></a>
 					<a href="https://www.iclassprov2.com/parentportal/gravitydancecollective/register" target="_blank"> <img style="width: 173px; height: 35px; border:0;" alt="Member Login" src="http://www.iclasspro.com/images/CreateAccount.png" /></a>
- 					<!-- <iframe src="iClassPro INSERT CODE TO EMBED HERE"></iframe></a> -->
+ 					<!-- <iframe src="iClassPro INSERT CODE TO EMBED HERE"></iframe></a> 
 					<a href="https://www.iclassprov2.com/icpv2/parentportal/gravitydancecollective/classes" target="_blank"><img src="images/schedule/portal-capture.png" class="full-width" alt="Visit Our Portal"></a>
+				</div> -->
+			</div>
+	<hr>
+<!-- SESSION SCHEDULE DETAIL -->
+		<div class="center">
+			<div class="row">
+					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1>Six Week Sessions</h1>
+					</div>
+			</div>
+		<br>
+		<div class="center">
+			<div class="row">
+				<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3>Wednesdays 7:30-8:30pm</h3>
+					<p class="schedule">Session #1: Adult Beginner Jazz (Feb 1 - March 8, 2017)
+						<br>Session #2: Adult Belly Dance (March 15 - April 19, 2017)
+						<br>Session #3: Sassy Salsa (April 26 - May 31, 2017)
+						<h3>Thursdays 7:30-8:30pm</h3>
+					<p class="schedule">Session #1: Pilates on the Ball (Feb 2 - March 9, 2017)
+						<br>Session #2: Adult Beginner Tap (March 16 - April 20, 2017)
+						<br>Session #3: Adult Advanced Tap (April 27 - June 1, 2017)
+					</p> 
+				</div>
 				</div>
 			</div>
 	<hr>
@@ -100,13 +123,11 @@
 	 		<div class="center">
 				<div class="row">
 					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1>GDC's Tiny Dancer Program</h1>
-					<h2>(Students ages 2 - 6 years old)</h2>
+					<h1>Tiny/Junior/Teen Dance Schedule</h1>
 					</div>
 				</div>
 				<div class="row">
 					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p>(Fall registration closes Sept 1 and will reopen for the Spring session in January 2017)
 					</div>
 						<!-- <br>Fall registration is AUGUST 8 - 14, 2016 for NEW students
 						<br>New students will only be added if space allows - Please <a href="/contact-us.php"><strong>contact the studio</strong></a> to be added on waitlist for fully enrolled classes.
@@ -116,32 +137,36 @@
 				</div>
 			</div> -->
 				<br>
+		<div class="center">
 			<div class="row">
-				<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6">
-						<h3>Tuesday</h3>
+				<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3>Mondays</h3>
+					<p class="schedule">10:00-11:00am Creative Movement ages 2-3 with Nicole
+						<h3>Tuesdays</h3>
 					<p class="schedule">10:00-11:00am Ballet/Tap Combo ages 3-4 with Nicole
-						<br>4:00-5:00pm Ballet/Tap Combo ages 3-4 with Nicole
+						<br>4:00-5:00pm Ballet/Tap Combo ages 4-5 with Nicole
+						<br>5:00-6:30pm Teen Jazz Collective ages 10-17 (Ballet/Jazz/Lyrical/Contemporary) with Veronica
 					</p> 
-						<h3>Wednesday</h3>
-					<p class="schedule">10:00-11:00am Ballet/Tap Combo ages 3-4 with Nicole
-						<br>3:30-4:30pm Ballet/ Tap for ages 3-4
+						<h3>Wednesdays</h3>
+					<p class="schedule">10:00-11:00am Ballet/Tap Combo ages 3-5 with Nicole
+						<br>3:30-4:30pm Ballet/Tap Combo ages 3-5
+						<br>4:30-5:30pm Latin/Salsa ages 10-17 with Julio
+						<br>5:30-6:30pm Teen Hip Hop ages 10-17 (Urban Femme Style) with Darryl
+						<br>6:30-7:30pm LEM Rehearsals (not open to public)
 					</p>
-				</div>
-				<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
-						<h3>Thursday</h3>
-					<p class="schedule">10:00-11:00am Ballet/Tap Combo ages 3-4 with Nicole
+						<h3>Thursdays</h3>
+					<p class="schedule">10:00-11:00am Ballet/Tap Combo ages 3-5 with Nicole
+						<br>5:00-6:30pm Junior Jazz Collective ages 6-10 (Ballet/Jazz/Tap) with Nicole
 					</p>	 
-						<h3>Saturday</h3>
-					<p class="schedule">8:30-9:30am Ballet/ Tap Combo ages 3-4 with Nicole
-						<br>9:30-10:30am Ballet/ Tap Combo ages 3-4 with Nicole
-						<br>10:30-11:30am Mini Jazz Collective ages 4-6 with Nicole 
+						<h3>Saturdays</h3>
+					<p class="schedule">8:30-9:30am Ballet/Tap Combo ages 4-5 with Nicole
+						<br>9:30-10:30am Ballet/Tap Combo ages 4-5 with Nicole
+						<br>10:30-11:30am Mini Jazz Collective ages 5-7 (Ballet/Jazz/Tap) with Nicole 
 						<br>11:30-12:30pm Creative Movement ages 2-3 with Nicole
 					</p>
 				</div>
 				</div>
 			</div>
-		</div>
-	</div>
 <!--END TINY DANCER SCHEDULE INFO --> 
 <hr>
 <!--PRICING --> 
@@ -157,10 +182,10 @@
 					</div>
 				</div>
 				<div class="row">
-						<div class="Col-xs-12 col-sm-6 col-md-4 col-lg-4" style="text-align:left;margin-top: 35px">
+						<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align:left;margin-top: 35px">
 							<h3>Children's Class Rates:</h3>
 						</div>
-						<div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8" style="margin-top: 35px">
+						<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6" style="margin-top: 35px">
 	 						<p>$40 per month for one class a week, <span style="font-style:italic">OR</span>
 	 							<br>5 Class Punch card for $55
 							</p>
@@ -169,13 +194,22 @@
 						</div>
 				</div>
 				<div class="row">
-					<div class="Col-xs-12 col-sm-6 col-md-4 col-lg-4" style="text-align:left;margin-top: 35px">
+					<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align:left;margin-top: 35px">
 						<h3>Adult Class Rates:</h3>
 					</div>
-					<div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8" style="margin-top: 35px">
+					<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6" style="margin-top: 35px">
 					    <p>$10 Drop in Rate, <span style="font-style:italic">OR</span>
 					    	<br>5 Class Punch Card for $45 ($9 per class), <span style="font-style:italic">OR</span>
 					    	<br>10 Class Punch Card for $80 ($8 per class)
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align:left;margin-top: 35px">
+						<h3>Session Rate:</h3>
+					</div>
+					<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6" style="margin-top: 35px">
+					    <p>$50 per 6-week session
 						</p>
 					</div>
 				</div>

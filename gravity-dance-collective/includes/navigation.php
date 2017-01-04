@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="home-link"><a href="/">Home<span class="sr-only">(current)</span></a></li>
         <li><a href="/schedule.php">Schedule</a></li>
-        <li><a href="https://www.iclassprov2.com/icpv2/parentportal/gravitydancecollective/classes" target="_blank">Registration/Portal</a></li>
+       <!-- <li><a href="https://www.iclassprov2.com/icpv2/parentportal/gravitydancecollective/classes" target="_blank">Registration/Portal</a></li> -->
         <li><a href="/instructors">Instructors</a></li>
         <li><a href="/photos.php">Photos</a></li>
         <li><a href="/videos.php">Videos</a></li>
