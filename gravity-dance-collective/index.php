@@ -31,22 +31,18 @@
 
 		ga('create', 'UA-79689630-1', 'auto');
 		ga('send', 'pageview');
-			</script>
+		</script>
 		<!--End Google Analytics Tracking -->
 
 </head>
 <body>
+	<!-- NAV -->
 	<header>
-		<div class="container-fluid">
-			<?php include ("includes/navigation.php"); ?>
-		</div>
+		<?php include ("includes/navigation.php"); ?>
 	</header>
-			<!--END NAV -->  
+	<!--/NAV -->  
 
 <!--WEB PAGE CONTENT HERE --> 
-
-		<div class="big-color-band"></div>
-
 		 <div style="min-height: 50px;">
 				<!-- Jssor Slider Begin -->
 				<!-- To move inline styles to css file/block, please specify a class name for each element. --> 
@@ -162,88 +158,67 @@
 
 
 	<!-- ABOUT GRAVITY -->
-	 <div id="content">
+	 <section id="content">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1 class="center">Gravity Dance Collective
-					</h1>
-						<p class="center"style="padding-bottom:50px">COME AND GET YOUR GROOVE ON!
-						</p>
+				<div class="col-md-12">
+					<h1 class="center">Gravity Dance Collective</h1>
+					<p class="center">COME AND GET YOUR GROOVE ON!</p>
 				</div>
-			</div>
-<!-- ONE COLUMN SECTION -->
-	<div class="big-full-image-lower-band">
-							<img src="/images/home/half-logo-full-image-template.jpg" class="full-width" alt="Logo">
-	</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-md-12 big-full-image-lower-band">
+					<img src="/images/home/half-logo-full-image-template.jpg" class="full-width" alt="Logo">
+				</div>
+				<div class="col-md-12">
 					<h2 class="center">About GDC</h2>
-						<p class="center">Gravity Dance Collective is a new Denver, CO community epicenter for movement with the mission to provide affordable dance instruction for all ages. Gravity Dance Collective strives to provide a comfortable and engaging atmosphere where students can study the art of dance. Our staff is dedicated to providing superior dance instruction that nurtures self esteem and promotes self confidence. Our Studio fosters self discipline, improves social skills, and provides a positive outlet for self expression. Gravity Dance Collective is also focused in community involvement, collectively sharing our passion for the arts with other artists and incorporating their work within our studio. Let Gravity Dance Collective be your connecting force to artistic expression!
-						</p>
+					<p class="center">Gravity Dance Collective is a new Denver, CO community epicenter for movement with the mission to provide affordable dance instruction for all ages. Gravity Dance Collective strives to provide a comfortable and engaging atmosphere where students can study the art of dance. Our staff is dedicated to providing superior dance instruction that nurtures self esteem and promotes self confidence. Our Studio fosters self discipline, improves social skills, and provides a positive outlet for self expression. Gravity Dance Collective is also focused in community involvement, collectively sharing our passion for the arts with other artists and incorporating their work within our studio. Let Gravity Dance Collective be your connecting force to artistic expression!</p>
+				</div>	
+				<div class="col-md-12 big-full-image-no-band">
+					<img src="/images/home/carolee-lunging-900pxhigh-full-image-template.jpg" class="full-width" alt="Dancer Lunging">
 				</div>
 			</div>
-<!--BIG FULL IMAGE-->
-	<div class="big-full-image-no-band">
-		<img src="/images/home/carolee-lunging-900pxhigh-full-image-template.jpg" class="full-width" alt="Dancer Lunging">
-	</div>
-<!--END BIG FULL IMAGE --> 
-<hr>
+			<hr>
 <!-- THREE COLUMN SECTION -->
 		<!-- TAKE A CLASS -->
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<div class="row three-column">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<img src="/images/home/kids-stripes-thirds-template-large.jpg" class="full-width" alt="Little Dancers in Stripes">
-								<h3>Take a Class</h3>
-								<p>Join us at the studio and try any class for free the first time! 
-								</p>
-								<p>
-									<a href="schedule.php" class="button">See The Class Schedule &raquo;</a>
-								</p>
+					<h3>Take a Class</h3>
+					<p>Join us at the studio and try any class for free the first time!</p>
+					<a href="schedule.php" class="button">See The Class Schedule &raquo;</a>
 				</div>
 	<!-- SOCIAL MEDIA -->
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<img src="/images/home/hip-hop-daryl-thirds-template-large.jpg" class="full-width" alt="Hip Hop Dancers">
-								<h3>Follow the Studio</h3>
-								<p>Stay updated on all the progress our students are making and see schedule updates for the studio in real time.  
-								</p>
-								<p>
-									<a href="https://www.facebook.com/Gravity-Dance-Collective-476083599169567/?fref=ts" target="blank" class="button">Connect on Facebook &raquo;</a>
-								</p>
-								<p style="padding-top: 20px">
-									<a href="https://www.instagram.com/gravitydancecollective/" target="blank" class="button">Follow on Instagram &raquo;</a>
-								</p>
+					<h3>Follow the Studio</h3>
+					<p>Stay updated on all the progress our students are making and see schedule updates for the studio in real time.</p>
+					<a href="https://www.facebook.com/Gravity-Dance-Collective-476083599169567/?fref=ts" target="blank" class="button">Connect on Facebook &raquo;</a>
+					<a href="https://www.instagram.com/gravitydancecollective/" target="blank" class="button">Follow on Instagram &raquo;</a>
 				</div>
 	<!-- CONTACT GRAVITY -->
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<img src="/images/home/original-instructors-thirds-template-large.jpg" class="full-width" alt="Instructors">
-						<a href="contact-us.php"><h3>Contact Us</h3></a>
-							<p>
-								Reach out to us and we will get back to you quickly.
-							</p>
-							<p>
-								<a href="contact-us.php" class="button">Contact GDC &raquo;</a>
-							</p>
+					<a href="contact-us.php"><h3>Contact Us</h3></a>
+					<p>Reach out to us and we will get back to you quickly.</p>
+					<a href="contact-us.php" class="button">Contact GDC &raquo;</a>
 				</div>
 			</div>
-<hr>
+			<hr>
 <!-- PARTNER COMPANY LOGOS -->
 			<div class="row">
-					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h2>Our Partners</h2>
-					</div>
+				<div class="col-md-12">
+				<h2>Our Partners</h2>
+				</div>
 			</div>
 			<div class="row">
-			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<div class="col-xs-6 col-sm-4">
 					<a href="https://www.facebook.com/Latin-Explosive-Movement-615352625296055/?fref=ts" target="blank"><img src="/images/home/thirds-template-for-mobile-too-julio-company.jpg" class="full-width" alt="Latin Explosive Movement"></a>
 				</div>
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<div class="col-xs-6 col-sm-4">
 					<a href="http://www.esmedancecompany.com" target="blank"><img src="/images/home/thirds-template-for-mobile-too-esme.jpg" class="full-width" alt="Esme"></a>
-				</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 <!-- FOOTER-->
 <?php include ("includes/footer.php"); ?>
 

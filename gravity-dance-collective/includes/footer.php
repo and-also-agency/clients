@@ -1,17 +1,17 @@
 <!--FOOTER-->
-<div class="row">
   <footer id="footer">
     <div class="container">
-      <div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <a href="contact-us.php"><p style="color: #fff">Contact Us</a>
-            <br><a href="https://www.facebook.com/Gravity-Dance-Collective-476083599169567/?fref=ts" target="blank"> Message Gravity Dance Collective on Facebook</a>
-            <br>
-            Copyright &copy; <?php echo date("Y") ?> Gravity Dance Collective
-          </p>
-      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul>
+            <li><a href="contact-us.php">Contact Us</a></li>
+            <li><a href="https://www.facebook.com/Gravity-Dance-Collective-476083599169567/?fref=ts" target="blank"> Message Us On Facebook</a></li>
+          </ul>
+          <p>Copyright &copy; <?php echo date("Y") ?> Gravity Dance Collective</p>
+        </div>
+      </div>      
     </div>
   </footer>
-</div>
 
 
  <!-- Bootstrap core JavaScript

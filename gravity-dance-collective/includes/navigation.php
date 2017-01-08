@@ -9,13 +9,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="navbar-brand">
-      <a href="/"><img style="margin-top: 0px" src="/images/common/gravity-logo-logo-template.jpg" alt="Gravity Dance Collective Logo"/></a>
-      </div>
+      <a href="/" class="navbar-brand">
+        <img style="margin-top: 0px" src="/images/common/gravity-logo-logo-template.jpg" alt="Gravity Dance Collective Logo"/>
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="home-link"><a href="/">Home<span class="sr-only">(current)</span></a></li>
         <li><a href="/schedule.php">Schedule</a></li>

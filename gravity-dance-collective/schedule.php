@@ -19,72 +19,38 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
      <![endif]-->
     <!-- LINK TO GOOGLE FONTS -->
-    <link href="<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,400italic|Quicksand:400,700|The+Girl+Next+Door' rel='stylesheet' type='text/css'>"
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,400italic|Quicksand:400,700|The+Girl+Next+Door' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <header>
-    <div class="container-fluid">
-<?php include ("includes/navigation.php"); ?>
-      </div>
+	<header>
+	<?php include ("includes/navigation.php"); ?>
       <!--END NAV --> 
 	</header>
-		<div class="big-color-band"></div>
 <!-- TWO COLUMN SECTION -->
 	<!-- ADULT SCHEDULE DETAIL -->
-	 <div id="content">
+	 <section id="content">
 	 	<div class="container">
-	 		<div class="row">
-	 			<div class="col-md-12">
-	 				<script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
-
-<healcode-widget data-type="class_lists" data-widget-partner="mb" data-widget-id="9719932b0d7" data-widget-version="0.1"></healcode-widget>
-	 			</div>
-	 		</div>
-	 	</div>
-	 	<div class="container">
-	 		<div class="center">
-				<div class="row">
-						<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row text-center">
+				<div class="col-md-12">
 					<h1>Preteen, Teen, and Adult Dance Schedule</h1>
-						</div>
-				</div>
-				<div class="row">
-					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<!-- <h3 class="schedule-header">Please note that we have an updated schedule for 2017!</h3>
-					<!-- <p><a href="https://www.facebook.com/Gravity-Dance-Collective-476083599169567/?fref=ts"target="blank"><strong>FOLLOW US ON FACEBOOK</strong></a> FOR THE MOST UP-TO-DATE INFORMATION!
-					</p> -->
-					</div>
-				</div>
-			<div>
-				<br>
-			<div class="row">
-				<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h3>Mondays</h3>
+					<h3>Mondays</h3>
 					<p class="schedule">5:30-6:30pm Adult Beginner Break Dancing with Joe
 						<br>6:30-7:30pm Adult Beginner Hip Hop (Urban Femme Style) with Darryl 
 						<br>7:30-8:30pm Adult Intermediate Hip Hop (Urban Femme Style) with Darryl
-						<br>8:30-9:30pm Adult Advanced Hip Hop/Performance Group with Darryl
-					</p> 	
-						<h3>Tuesdays</h3>
+						<br>8:30-9:30pm Adult Advanced Hip Hop/Performance Group with Darryl</p> 	
+					<h3>Tuesdays</h3>
 					<p class="schedule">6:30-7:45pm Adult Intermediate Ballet/Pre-Pointe Work with Carolee 
-						<br>7:45-8:45pm Adult Jazz Collective (Jazz/Contemporary/Lyrical) with Veronica
-					</p> 
-						<h3>Wednesdays</h3>
-					<p class="schedule">7:30-8:30pm ROTATING SESSION - <strong>SEE SESSIONS SCHEDULE BELOW</strong>
-					</p>	 
-						<h3>Thursdays</h3>
+						<br>7:45-8:45pm Adult Jazz Collective (Jazz/Contemporary/Lyrical) with Veronica</p> 
+					<h3>Wednesdays</h3>
+					<p class="schedule">7:30-8:30pm ROTATING SESSION - <strong>SEE SESSIONS SCHEDULE BELOW</strong></p>	 
+					<h3>Thursdays</h3>
 					<p class="schedule">6:30-7:30pm Adult Beginner Ballet with Carolee 
-						<br>7:30-8:30pm ROTATING SESSION - <strong>SEE SESSIONS SCHEDULE BELOW</strong>
-					</p>	 
-						<h3>Fridays</h3>
+						<br>7:30-8:30pm ROTATING SESSION - <strong>SEE SESSIONS SCHEDULE BELOW</strong></p>	 
+					<h3>Fridays</h3>
 					<p class="schedule">Available for community classes and event rentals.
-						<br><strong><a href="contact-us.php">Contact the Studio</a></strong> for rental information.
-					</p>	 
-				</div>
+						<br><strong><a href="contact-us.php">Contact the Studio</a></strong> for rental information.</p>	 
 				</div>
 			</div>
-		</div>
-
     <!-- Copy & Pasted from iClassPro 
     			<div class="Col-xs-12 col-sm-6 col-md-6 col-lg-6">
     				<h3>Click below to <strong>visit our portal</strong> and register for classes-</h3>
@@ -93,50 +59,47 @@
 					<a href="https://www.iclassprov2.com/parentportal/gravitydancecollective" target="_blank"> <img style="width: 173px; height: 35px; border:0;" alt="Member Login" src="http://www.iclasspro.com/images/ParentLogin.png" /></a>
 					<a href="https://www.iclassprov2.com/parentportal/gravitydancecollective/register" target="_blank"> <img style="width: 173px; height: 35px; border:0;" alt="Member Login" src="http://www.iclasspro.com/images/CreateAccount.png" /></a>
  					<!-- <iframe src="iClassPro INSERT CODE TO EMBED HERE"></iframe></a> 
-					<a href="https://www.iclassprov2.com/icpv2/parentportal/gravitydancecollective/classes" target="_blank"><img src="images/schedule/portal-capture.png" class="full-width" alt="Visit Our Portal"></a>
-				</div> -->
-			</div>
-	<hr>
-<!-- SESSION SCHEDULE DETAIL -->
-		<div class="center">
-			<div class="row">
-					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<a href="https://www.iclassprov2.com/icpv2/parentportal/gravitydancecollective/classes" target="_blank"><img src="images/schedule/portal-capture.png" class="full-width" alt="Visit Our Portal"></a>	
+			</div> -->
+			<hr>
+			<!-- SESSION SCHEDULE DETAIL -->
+			<div class="row text-center">
+				<div class="col-md-12">
 					<h1>Six Week Sessions</h1>
-					</div>
+				</div>
 			</div>
-		<br>
-		<div class="center">
-			<div class="row">
-				<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h3>Wednesdays 7:30-8:30pm</h3>
+			<div class="row text-center">
+				<div class="col-md-12">
+					<h3>Wednesdays 7:30-8:30pm</h3>
 					<p class="schedule">Session #1: Adult Beginner Jazz (Feb 1 - March 8, 2017)
 						<br>Session #2: Adult Belly Dance (March 15 - April 19, 2017)
 						<br>Session #3: Sassy Salsa (April 26 - May 31, 2017)
 						<h3>Thursdays 7:30-8:30pm</h3>
-					<p class="schedule">Session #1: Pilates on the Ball (Feb 2 - March 9, 2017)
-						<br>Session #2: Adult Beginner Tap (March 16 - April 20, 2017)
-						<br>Session #3: Adult Advanced Tap (April 27 - June 1, 2017)
-					</p> 
+						<p class="schedule">Session #1: Pilates on the Ball (Feb 2 - March 9, 2017)
+							<br>Session #2: Adult Beginner Tap (March 16 - April 20, 2017)
+							<br>Session #3: Adult Advanced Tap (April 27 - June 1, 2017)
+						</p> 
+					</div>
 				</div>
-				</div>
-			</div>
-	<hr>
+		</div>
+	</section>
 <!--BIG FULL IMAGE-->
   <div class="big-full-image-no-band">
     <img src="images/schedule/kids-nicole-dancing-full-image-template.jpg" class="full-width" alt="Kids Dancing">
   </div>
 <!--END BIG FULL IMAGE --> 
 	<!-- TINY DANCER SCHEDULE DETAIL -->
+	 <section>
 	 <div id="content">
 	 	<div class="container">
 	 		<div class="center">
 				<div class="row">
-					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1>Tiny/Junior/Teen Dance Schedule</h1>
+					<div class="col-md-12">
+					<h1>Tiny, Junior, Teen Dance Schedule</h1>
 					</div>
 				</div>
 				<div class="row">
-					<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="col-md-12">
 					</div>
 						<!-- <br>Fall registration is AUGUST 8 - 14, 2016 for NEW students
 						<br>New students will only be added if space allows - Please <a href="/contact-us.php"><strong>contact the studio</strong></a> to be added on waitlist for fully enrolled classes.
@@ -148,7 +111,7 @@
 				<br>
 		<div class="center">
 			<div class="row">
-				<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-md-12">
 						<h3>Mondays</h3>
 					<p class="schedule">10:00-11:00am Creative Movement ages 2-3 with Nicole
 						<h3>Tuesdays</h3>
@@ -183,7 +146,7 @@
 	 	<div class="container">
 				<div class="row">
 					<div class="center">
-						<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="col-md-12">
 						<h2 style="margin-top:0px">Pricing</h2>
 						<p><strong>All Classes are FREE for the first time! Try out as many as you like to find your perfect fit!</strong>
 						</p>
@@ -227,6 +190,7 @@
 </div>
 </div>
 </div>
+</section>
 <!--FOOTER-->
  <?php include ("includes/footer.php"); ?>
 </body>

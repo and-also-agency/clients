@@ -23,47 +23,35 @@
 </head>
 <body>
   <header>
-    <div class="container-fluid">
 
 <?php include ("includes/navigation.php"); ?>
 
-      </div>
       <!--END NAV -->
 	</header>
 <!--COLOR BAND --> 
 		<div class="big-color-band"></div>
 <!--COLOR BAND END--> 
-	<!--CONTACT ESME -->
-	 	<div class="container">
-	 		<div class="row">
-	 			<div class="full column"> 
-					<h2 class="center">Contact Gravity Dance Collective Today!</h2>
-            <div class="row">
-              <div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <p class="center" style="margin-left: 10px"> <strong>Owner: Nicole Cappelletty 
-                  <br>Gravity Dance Collective LLC</strong>
-                  <br>157 Kalamath St.
-                  <br>Denver, CO 80223
-                  <br><a href="mailto:gravitydance2013@gmail.com">gravitydance2013@gmail.com</a>
-                  <br>Tel: 720-933-9544</p>
-              </div>
-            </div>
-				</div>
+	<!--CONTACT Gravity Dance Collective -->
+	 	<section class="container">
+	 		<div class="row text-center">
+        <div class="col-md-12">
+          <h2>Contact Gravity Dance Collective Today!</h2> 
+          <p class="lead">To contact the studio, please fill out the short form below or feel free to call or email us. We look forward to hearing from you!</p>       
+        </div>
 			</div>
-	</div>
-    <!--FORM-->
-  <div  class="container">
-      <div class="row">
+      <!-- FORM -->
+      <div class="row mt-30">
+        <div class="col-md-8">
             <form id="contact-form" action="mail.php" method="POST">
-              <div class="col-md-12 form-container">
+              <div class="form-group">
                 <label for="name">Your Name</label>
                 <input type="text" name="name" id="name" required aria-required="true">
               </div>
-              <div class="col-md-12 form-container">
+              <div class="form-group">
                 <label for="email">Your Email Address</label>
                 <input type="email" name="email" id="email" required aria-required="true">                
               </div>
-              <div class="col-md-12 form-container">
+              <div class="form-group">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" rows="6" cols="25" required></textarea>                
               </div>
@@ -71,20 +59,24 @@
               <p>
                   <input id="submit" type="image" value="Send" class="image-button" type="submit" src="images/contact/contact-button-gravity.jpg" alt="Submit form"/>
               </p>
-          </form>
+          </form>          
         </div>
-      </div>
-    </div>
-<!-- WE LOOK FORWARD TO HEARING FROM YOU -->
-	 	<div class="container">
-	 		<div class="row">
-	 			<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h2 class="center">We look forward to hearing from you!
-					</h2>
-				</div>
-			</div>
-	</div>
-<hr class="blank">
+        <div class="col-md-4 contact-info">
+          <div>
+            <p class="small"> Nicole Cappelletty 
+              <br>Gravity Dance Collective
+              <br>
+              <br>157 Kalamath St.
+              <br>Denver, CO 80223
+              <br>
+              <br><a href="mailto:gravitydance2013@gmail.com">gravitydance2013@gmail.com</a>
+              <br>Tel: 720-933-9544
+            </p>            
+          </div>
+        </div> 
+      </div> 
+        <!-- /FORM -->
+    </section>
 
 <?php include ("includes/footer.php"); ?>
  
