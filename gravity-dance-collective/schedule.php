@@ -33,6 +33,15 @@
 	<!-- ADULT SCHEDULE DETAIL -->
 	 <div id="content">
 	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-md-12">
+	 				<script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
+
+<healcode-widget data-type="class_lists" data-widget-partner="mb" data-widget-id="9719932b0d7" data-widget-version="0.1"></healcode-widget>
+	 			</div>
+	 		</div>
+	 	</div>
+	 	<div class="container">
 	 		<div class="center">
 				<div class="row">
 						<div class="Col-xs-12 col-sm-12 col-md-12 col-lg-12">
