@@ -3,11 +3,11 @@
 <html lang="en">
 	<head>
 		 <meta charset="utf-8">
-			<meta name="description" content="Gravity Dance Collective Denver information about classes, dance schedule, instructors and location">
+			<meta name="description" content="Gravity Dance Collective provides affordable dance classes and lessons for adults and children in downtown Denver.">
 		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 		 <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-		 <title>Gravity Dance Collective</title>
+		 <title>Denver Dance Classes and Lessons | Gravity Dance Collective</title>
 			<!-- Latest compiled and minified CSS -->
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
  
@@ -48,7 +48,7 @@
 				<!-- To move inline styles to css file/block, please specify a class name for each element. --> 
 				<!-- ================================================== -->
 				<div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
-				top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+				top: 0px; left: 0px; width: 1300px; height: 400px; overflow: hidden;">
 						<!-- Loading Screen -->
 						<div u="loading" style="position: absolute; top: 0px; left: 0px;">
 								<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
@@ -59,7 +59,7 @@
 								</div>
 						</div>
 						<!-- Slides Container -->
-						<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+						<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 400px; overflow: hidden;">
 								<div>
 										<img class="slider" u="image" src2="/images/home/carolee-ballet-full-slider-template-long.jpg" />
 								</div>
@@ -145,13 +145,12 @@
 								.jssora21r.jssora21rdn { background-position: -303px -33px; }
 						</style>
 						<!-- Arrow Left -->
-						<span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;">
+						<span u="arrowleft" class="jssora21l" style="top: 50%; left: 8px;">
 						</span>
 						<!-- Arrow Right -->
-						<span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;">
+						<span u="arrowright" class="jssora21r" style="top: 50%; right: 8px;">
 						</span>
 						<!--#endregion Arrow Navigator Skin End -->
-						<a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
 				</div>
 				<!-- Jssor Slider End -->
 		</div>
@@ -160,20 +159,20 @@
 	<!-- ABOUT GRAVITY -->
 	 <section id="content">
 		<div class="container">
-			<div class="row">
+			<div class="row text-center">
 				<div class="col-md-12">
-					<h1 class="center">Gravity Dance Collective</h1>
-					<p class="center">COME AND GET YOUR GROOVE ON!</p>
+					<h1>Gravity Dance Collective</h1>
+					<p>COME AND GET YOUR GROOVE ON!</p>
 				</div>
 				<div class="col-md-12 big-full-image-lower-band">
-					<img src="/images/home/half-logo-full-image-template.jpg" class="full-width" alt="Logo">
+					<img src="/images/home/half-logo-full-image-template.jpg" class="img-responsive" alt="Denver Dance Studio">
 				</div>
 				<div class="col-md-12">
-					<h2 class="center">About GDC</h2>
-					<p class="center">Gravity Dance Collective is a new Denver, CO community epicenter for movement with the mission to provide affordable dance instruction for all ages. Gravity Dance Collective strives to provide a comfortable and engaging atmosphere where students can study the art of dance. Our staff is dedicated to providing superior dance instruction that nurtures self esteem and promotes self confidence. Our Studio fosters self discipline, improves social skills, and provides a positive outlet for self expression. Gravity Dance Collective is also focused in community involvement, collectively sharing our passion for the arts with other artists and incorporating their work within our studio. Let Gravity Dance Collective be your connecting force to artistic expression!</p>
+					<h2>About GDC</h2>
+					<p>Gravity Dance Collective is a new Denver, CO community epicenter for movement with the mission to provide affordable dance instruction for all ages. Gravity Dance Collective strives to provide a comfortable and engaging atmosphere where students can study the art of dance. Our staff is dedicated to providing superior dance instruction that nurtures self esteem and promotes self confidence. Our Studio fosters self discipline, improves social skills, and provides a positive outlet for self expression. Gravity Dance Collective is also focused in community involvement, collectively sharing our passion for the arts with other artists and incorporating their work within our studio. Let Gravity Dance Collective be your connecting force to artistic expression!</p>
 				</div>	
 				<div class="col-md-12 big-full-image-no-band">
-					<img src="/images/home/carolee-lunging-900pxhigh-full-image-template.jpg" class="full-width" alt="Dancer Lunging">
+					<img src="/images/home/carolee-lunging-900pxhigh-full-image-template.jpg" class="full-width" alt="Denver Ballet Instructor">
 				</div>
 			</div>
 			<hr>

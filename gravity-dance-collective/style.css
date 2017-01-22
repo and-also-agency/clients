@@ -20,45 +20,66 @@ section {
 	padding: 80px 0;
 }
 
+@media (max-width: 767px) {
+	section {
+		padding: 30px 0;
+	}
+}
 
 .bio {
-    color: #717070;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13pt; 	
+    font-size: 80%;
+    line-height: 160%;
 }
 
 .bio-top, p.small {
-    font-size: 13pt; 
+    font-size: 80%; 
 }
 
-@media (min-width : 770px) {
 .bio-top {
-	margin-top: 0px;
-}
-}
-
-@media (max-width : 770px) {
-.bio-top {
-	margin-top: 50px;
-}
+	margin-top: 40px;
 }
 
-#body p {
-	color: #717070;
+.quote {
+	font-size: 80%;
+	line-height: 160%;
+	font-style: italic;
+}
+
+.quote span {
+	display: block;
+	font-weight: 600;
+}
+
+@media (min-width : 992px) {
+	.bio-top {
+		margin-top: 0;
+	}
 }
 
 .schedule {
 	color: #717070;
-    font-family: 'Open Sans', sans-serif;
     font-size: 11pt;
 }
 
 .schedule-header {
 	color: #a31aa3;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16pt;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.pricing {
+	padding: 30px 0;
+	border-bottom: 1px solid #717070;
+}
+
+.pricing h3 {
+	margin: 0;
+}
+
+.pricing:last-of-type {
+	border-bottom: none;
+	padding-bottom: 0;
 }
 
 header {
@@ -122,7 +143,7 @@ h1 {
 	margin-bottom: 40px;
 }
 
-@media (max-width : 650px) {
+@media (max-width : 768px) {
 	h1, h1.center {
 		color: #a31aa3;
 		font-size: 250%;
@@ -139,7 +160,7 @@ h2 {
 	margin-bottom: 35px;
 }
 
-@media (max-width : 650px) {
+@media (max-width : 768px) {
 	h2 {
 		color: #a31aa3;
 		font-size: 150%;
@@ -173,19 +194,26 @@ h4 {
 	text-align: center;
 }
 
-.big-color-band {
-	display: block;
-	position: relative;
-	height: 10%;
-	background-color: #0a7587;
-	border: .05em solid  #0a7587;
-}
-
 hr {
 	border: 0;
 	height: 2px;
 	background: #0a7587;
 	margin: 60px 0;
+}
+
+.instructor-preview {
+	margin-bottom: 40px;
+}
+
+.instructor-preview h3 {
+	margin: 10px 0;
+}
+
+.instructor-preview span {
+	font-size: 75%;
+	font-style: italic;
+	display: block;
+	margin-top: -10px;
 }
 
 .instructor {
@@ -202,7 +230,7 @@ hr {
     border-width: .2%;
 }
 
-@media (max-width : 770px) {
+@media (max-width : 767px) {
 	.instructor {
 		display: none;
 	}
@@ -234,24 +262,21 @@ div .row {
 
 .big-full-image {
 	display: block;
-	border-top: .2em #0a7587 solid;
-	border-bottom: .2em #0a7587 solid;
+	border-bottom: 2px #0a7587 solid;
 	padding-top: 0px;
 	margin-top: 0px !important;
 }
 
 .big-full-image-no-band {
 	display: block;
-	padding-top: 30px !important;
-	margin-top: 30px !important;
+	margin: 60px 0;
 }
 
 
 .big-full-image-lower-band {
 	display: block;
-	border-bottom: 4px #0a7587 solid;
-	padding-top: 30px !important;
-	margin-top: 30px !important;
+	border-bottom: 2px #0a7587 solid;
+	margin: 60px 0;
 }
 
 
@@ -297,7 +322,7 @@ img {
 
 }
 
-@media (max-width : 770px) {
+@media (max-width : 767px) {
 /*	img {
 		margin-top: 20px;
 	}
@@ -312,7 +337,11 @@ img {
 	}
 }
 
-@media (max-width : 770px) {
+.slider {
+	
+}
+
+@media (max-width : 767px) {
 .slider {
 	margin-top:0px;
 }
@@ -370,6 +399,7 @@ h2 a, h2 a {
 .navbar {
 	min-height: 100px;
 	margin-bottom: 0;
+	border-radius: 0;
 }
 .navbar-default {
 	background-color: #fff;
@@ -377,12 +407,20 @@ h2 a, h2 a {
 	border-style: solid;
 	border-color: #0a7587;
 }
-
+.navbar-nav {
+	margin-top: 0;
+}
 .navbar-toggle {
 	margin-top: 30px;
 }
  
 /* ----- =navigation ----- */
+.navbar-nav>li>a {
+	font-size: 80%;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #a31aa3;`
+}
 #top-nav {
    float: right;
    min-width: 20%;
@@ -494,6 +532,7 @@ form {
 
 .form-group {
 	margin-bottom: 25px;
+	position: relative;
 }
 
 .contact-info {
@@ -508,6 +547,13 @@ form {
 	border-radius: 6px;
 }
 
+@media (max-width : 767px) {
+	.contact-info {
+		padding-left: 15px;
+	}	
+}
+
+
 label {
   color: #666666;
   font-size: 18px;
@@ -519,13 +565,18 @@ label {
 input, textarea {
   width: 100%;
   position: relative;
-  padding: 0px 5px;
+  padding: 4px 5px;
   outline: none;
-  box-shadow: none;  
+  box-shadow: none;
+  border: 1px solid #717070;
 }
 
 input {
-	height: 34px;
+	height: 40px;
+}
+
+input[type=image] {
+	border: none;
 }
 
 input[type=submit],
@@ -534,6 +585,50 @@ input[type=reset] {
   float: right;
   color: #660066;
   background-color: #fff;
+}
+
+div.healcode .header .filters select {
+	border: 1px solid #ccc;
+	width: 24%;
+	border-radius: 3px;
+}
+
+div.healcode .filters .checkboxes input[type=checkbox] {
+	position: relative;
+	width: auto;
+	margin: 4px 0 0;
+	padding: 0;
+	line-height: normal;
+	height: auto;
+}
+
+div.healcode label {
+	font-size: 14px;
+}
+
+div.healcode input + label {
+	margin-right: 12px;
+}
+
+div.healcode table.schedule .schedule_header th {
+	background-color: #d6d6d6;
+	color: #2a2a2b;
+	font-size: 80%;
+}
+
+div.healcode table.schedule tbody tr.odd td {
+	background-color: #efefef;
+}
+
+/* healcode signup button */
+
+div.healcode table.schedule a.hc-button {
+	background: #a31aa3;
+	font-weight: 600;
+}
+
+div.healcode table.schedule a.hc-button:hover {
+	background: #8a018a;
 }
 
 input:focus, textarea:focus {
@@ -554,10 +649,6 @@ input:focus, textarea:focus {
 	margin-bottom: 100px;
 }
 
-.clear-button {
-	margin-top: 62px;
-}
-
 /* error classes */
 
 input.error, textarea.error{
@@ -571,8 +662,8 @@ label.error {
 	font-weight: 600;
 	text-transform: uppercase;
 	position: absolute;
-	right: 25px;
-	top: 45px;
+	right: 10px;
+	top: 48px;
 }
 
 /*------=photoswipe gallery------*/

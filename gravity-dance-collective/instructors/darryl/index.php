@@ -23,47 +23,29 @@
 </head>
 <body>
   <header>
-    <div class="container-fluid">
+    <?php include ("../../includes/navigation.php"); ?>
+  </header>
 
-<!--Nav -->
-<?php include ("../../includes/navigation.php"); ?>
-      </div>
-      <!--END NAV -->
-
-<!-- WEB PAGE CONTENT HERE -->
-
-</header>
-<!--COLOR BAND --> 
-		<div class="big-color-band"></div>
-<!--COLOR BAND END--> 
-<!-- TWO COLUMN SECTION -->
-  <!-- PERFORMANCE INFORMATION -->
-    <div id="content">
-        <div class="container">
-          <div class="row">
-            <div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8">
-              <h3 style="font-family:Josefin Sans" font size="12px">Darryl Smith | Instructor</h3>
-            </div>
+  <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Darryl Smith | Instructor</h3>
           </div>
-          <div class="row">
-            <div class="Col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <img src="/images/instructors/darryl-third-template-long.jpg" style="max-width: 600px" alt="Darryl">
-            </div>
-            <div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8">
-                <p class="bio-top">Darryl Smith was born and raised in the Bronx and moved to Aurora, Colorado in 2005. He began dancing at the age 11 and has trained at a variety of studios in New York and Colorado. Darryl’s specializes in Hip Hop dance, particularly Urban/ Femme Hip Hop.  
-                </p>
-                <p class="bio">Darryl is one of the lead choreographers for the local hip hop crew Academy of Raw/Hype 303 and has been an active member/dancer for this dance crew since 2010. He has performed and competed in events such as Vail International Festival, CU Boulder Verve Dance Competition, World of Dance Chicago, and Set It Off Dance Competition Vegas. Darryl is also an instructor for several local studios including GDC and frequently teaches workshops out of state.
-                </p>
-                <p class="bio">“Growing up in the Bronx has definitely taught me to have tough skin… to be confident in anything that I do, and to be grateful for my success.” 
-
-                </p>
-                <p class="bio">Darryl strives to have each student feel “bold, strong, beautiful, and fierce” in his hip hop classes! </p>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <img src="/images/instructors/darryl-third-template-long.jpg" class="img-responsive" alt="Darryl">
           </div>
+          <div class="col-sm-12 col-md-8">
+              <p class="bio bio-top">Darryl Smith was born and raised in the Bronx and moved to Aurora, Colorado in 2005. He began dancing at the age 11 and has trained at a variety of studios in New York and Colorado. Darryl’s specializes in Hip Hop dance, particularly Urban/ Femme Hip Hop.</p>
+              <p class="bio">Darryl is one of the lead choreographers for the local hip hop crew Academy of Raw/Hype 303 and has been an active member/dancer for this dance crew since 2010. He has performed and competed in events such as Vail International Festival, CU Boulder Verve Dance Competition, World of Dance Chicago, and Set It Off Dance Competition Vegas. Darryl is also an instructor for several local studios including GDC and frequently teaches workshops out of state.</p>
+              <p class="quote">"Growing up in the Bronx has definitely taught me to have tough skin… to be confident in anything that I do, and to be grateful for my success."</p>
+              <p class="bio">Darryl strives to have each student feel "bold, strong, beautiful, and fierce" in his hip hop classes! </p>
+          </div>
+        </div>
       </div>
-      </div>
-      <hr>
-
+    </section>
 
 <!--FOOTER-->
 <?php include ("../../includes/footer.php"); ?>

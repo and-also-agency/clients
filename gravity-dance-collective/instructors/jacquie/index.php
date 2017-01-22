@@ -23,21 +23,8 @@
 </head>
 <body>
   <header>
-    <div class="container-fluid">
-
-<!--Nav -->
-<?php include ("../../includes/navigation.php"); ?>
-      </div>
-      <!--END NAV -->
-
-<!-- WEB PAGE CONTENT HERE -->
-
-</header>
-<!--COLOR BAND --> 
-		<div class="big-color-band"></div>
-<!--COLOR BAND END--> 
-<!-- TWO COLUMN SECTION -->
-  <!-- PERFORMANCE INFORMATION -->
+    <?php include ("../../includes/navigation.php"); ?>
+  </header>
     <div id="content">
         <div class="container">
           <div class="row">
@@ -55,8 +42,7 @@
                 </p>
             </div>
           </div>
-      <hr>
-
+        </div>
 <!--FOOTER-->
 <?php include ("../../includes/footer.php"); ?>
  

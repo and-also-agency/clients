@@ -41,7 +41,7 @@
 			</div>
       <!-- FORM -->
       <div class="row mt-30">
-        <div class="col-md-8">
+        <div class="col-md-8 clearfix">
             <form id="contact-form" action="mail.php" method="POST">
               <div class="form-group">
                 <label for="name">Your Name</label>
@@ -55,10 +55,11 @@
                 <label for="message">Message</label>
                 <textarea name="message" id="message" rows="6" cols="25" required></textarea>                
               </div>
-              <div class="col-md-12 special" style="display:none;"><label for="special-requests">Special Requests</label> <input class="form-control" id="special-requests" name="special" type="text" /></div>
-              <p>
-                  <input id="submit" type="image" value="Send" class="image-button" type="submit" src="images/contact/contact-button-gravity.jpg" alt="Submit form"/>
-              </p>
+              <div class="col-md-12 special" style="display:none;">
+                <label for="special-requests">If you're a human leave this blank</label>
+                <input class="form-control" id="special-requests" name="special-requests" type="text" />
+              </div>
+                <input id="submit" type="image" value="Send" class="image-button" type="submit" src="images/contact/contact-button-gravity.jpg" alt="Submit form"/>
           </form>          
         </div>
         <div class="col-md-4 contact-info">
@@ -70,7 +71,7 @@
               <br>Denver, CO 80223
               <br>
               <br><a href="mailto:gravitydance2013@gmail.com">gravitydance2013@gmail.com</a>
-              <br>Tel: 720-933-9544
+              <br>720-933-9544
             </p>            
           </div>
         </div> 

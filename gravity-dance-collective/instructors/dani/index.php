@@ -23,46 +23,29 @@
 </head>
 <body>
   <header>
-    <div class="container-fluid">
-
-<!--Nav -->
-<?php include ("../../includes/navigation.php"); ?>
-      </div>
-      <!--END NAV -->
-
-<!-- WEB PAGE CONTENT HERE -->
-
-</header>
-<!--COLOR BAND --> 
-		<div class="big-color-band"></div>
-<!--COLOR BAND END--> 
-<!-- TWO COLUMN SECTION -->
+    <?php include ("../../includes/navigation.php"); ?>
+  </header>
   <!-- PERFORMANCE INFORMATION -->
-    <div id="content">
+    <section id="content">
         <div class="container">
           <div class="row">
-            <div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8">
-              <h3 style="font-family:Josefin Sans" font size="12px">Dani Worthman | Instructor</h3>
+            <div class="col-md-12">
+              <h3>Dani Worthman | Instructor</h3>
             </div>
           </div>
           <div class="row">
-            <div class="Col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <img src="/images/instructors/dani-third-template-long.jpg" style="max-width: 600px" alt="Dani">
+            <div class="col-sm-12 col-md-4">
+              <img src="/images/instructors/dani-third-template-long.jpg" class="img-responsive" alt="Dani">
             </div>
-            <div class="Col-xs-12 col-sm-6 col-md-8 col-lg-8">
-                <p class="bio-top">Dani Worthman has lived in Colorado as long as she’s been dancing—since the age of two. She studied mainly under her mother’s direction until the age of 11 when she began dancing competitively with Shelly True Dance Academy and continued dancing competitively through high school. During this time she also worked as a dance captain for Magic Moments Productions, taught dance workshops at local summer camps, and co-instructed at Red Rocks Community College.
-                </p>
-                <p class="bio">Dani continued on to dance intermittently during the time she studied abroad in Croatia as well as through attaining her Bachelors of Science degree in Business Management from the University of Colorado Denver.
-                </p>
-                <p class="bio">Dani now teaches adult Tap at Gravity Dance Collective, studies at the studio 3 days per week, and is proud to be Assistant Creative Director of <a href="http://www.esmedancecompany.com" target="blank"><strong>Esmé Dance Company</strong></a>. Most of all, she is grateful to have found a positive, welcoming group with which to share her passion for dance—somewhere she can dance for the love of its art, while empowering others to do the same.
-                </p>
-                <p class="bio">“We ask ourselves, who am I to be brilliant, gorgeous, talented, and fabulous? Actually, who are you not to be? ...as we let our own light shine, we unconsciously give others permission to do the same.” <br>~Marianne Williamson</p>
+            <div class="col-sm-12 col-md-8">
+                <p class="bio bio-top">Dani Worthman has lived in Colorado as long as she’s been dancing—since the age of two. She studied mainly under her mother’s direction until the age of 11 when she began dancing competitively with Shelly True Dance Academy and continued dancing competitively through high school. During this time she also worked as a dance captain for Magic Moments Productions, taught dance workshops at local summer camps, and co-instructed at Red Rocks Community College.</p>
+                <p class="bio">Dani continued on to dance intermittently during the time she studied abroad in Croatia as well as through attaining her Bachelors of Science degree in Business Management from the University of Colorado Denver.</p>
+                <p class="bio">Dani now teaches adult Tap at Gravity Dance Collective. She is grateful to have found a positive, welcoming group with which to share her passion for dance—somewhere she can dance for the love of its art, while empowering others to do the same.</p>
+                <p class="quote">“We ask ourselves, who am I to be brilliant, gorgeous, talented, and fabulous? Actually, who are you not to be? ...as we let our own light shine, we unconsciously give others permission to do the same.” <span>~Marianne Williamson</span></p>
             </div>
           </div>
         </div>
-      </div>
-      <hr>
-
+      </section>
 <!--FOOTER-->
 <?php include ("../../includes/footer.php"); ?>
  

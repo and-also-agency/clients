@@ -23,20 +23,8 @@
 </head>
 <body>
   <header>
-    <div class="container-fluid">
-
-<!--Nav -->
-<?php include ("../../includes/navigation.php"); ?>
-      </div>
-      <!--END NAV -->
-
-
-<!-- WEB PAGE CONTENT HERE -->
-
-</header>
-<!--COLOR BAND --> 
-		<div class="big-color-band"></div>
-<!--COLOR BAND END--> 
+  <?php include ("../../includes/navigation.php"); ?>
+  </header> 
 <!-- TWO COLUMN SECTION -->
   <!-- PERFORMANCE INFORMATION -->
     <div id="content">
