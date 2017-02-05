@@ -611,13 +611,53 @@ div.healcode input + label {
 }
 
 div.healcode table.schedule .schedule_header th {
-	background-color: #d6d6d6;
+	background-color: rgba(239, 239, 239, 0.5);
 	color: #2a2a2b;
-	font-size: 80%;
+	font-size: 90%;
+	padding: 8px 10px;
 }
 
 div.healcode table.schedule tbody tr.odd td {
-	background-color: #efefef;
+	background-color: #fff;
+}
+
+.filters {
+	display: none !important;
+}
+
+div.healcode div.header h1 {
+	margin-bottom: 25px;
+	font-weight: 600;
+}
+
+div.healcode .header .date_links span.week_links {
+	padding: 0;
+	border: none;
+}
+
+div.healcode .week_links span a {
+	font-size: 12px;
+	line-height: 28px;
+	letter-spacing: 2px;
+}
+
+div.healcode .week_links span a:hover {
+	background: #0a7587;
+}
+
+div.healcode div.header input[type="text"] {
+	border: none;
+}
+
+div.healcode div.header .date_links .healcode-jump-to-date input {
+	padding-left: 40px;
+	background-position: 12px 10px;
+	width: 10em;
+}
+
+div.healcode div.header .date_links .healcode-jump-to-date input[type="text"]:focus {
+	box-shadow: none;
+	background-color: rgba(239, 239, 239, 0.5);
 }
 
 /* healcode signup button */
@@ -629,6 +669,75 @@ div.healcode table.schedule a.hc-button {
 
 div.healcode table.schedule a.hc-button:hover {
 	background: #8a018a;
+}
+
+div.healcode table.schedule tbody tr td {
+    padding: 12px 10px;
+    background: #fff;
+    font-size: 14px;
+}
+
+.class_info {
+	padding: 20px 15px;
+}
+
+div.ui-datepicker {
+	width: 12em;
+}
+
+.ui-datepicker div.ui-datepicker-title {
+	font-size: 14px;
+}
+
+.ui-datepicker a.ui-datepicker-prev, .ui-datepicker a.ui-datepicker-next {
+	height: 1.3em;
+}
+
+#hc-ui-datepicker-div .ui-widget-header a.ui-state-hover {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.ui-datepicker thead th {
+	font-size: 14px;
+}
+
+.ui-datepicker tbody td {
+	font-size: 12px;
+}
+
+.ui-datepicker tbody td a {
+	text-align: center;
+}
+
+#hc-ui-datepicker-div.ui-widget-content a.ui-state-default {
+	background: rgba(239, 239, 239, 0.5);
+}
+
+#hc-ui-datepicker-div.ui-widget-content a.ui-state-highlight {
+	border-color: #a31aa3;
+	background-color: #a31aa3;
+	font-weight: 600;
+	color: #fff;
+}
+
+div.hc_header {
+	background: #0a7587 !important;
+}
+
+.semantic-content div.modal-inner {
+	background: transparent;
+}
+
+.semantic-content div.modal-content {
+	border: none;
+}
+
+.semantic-content a.modal-close:after {
+	top: 73px;
+	right: 53px;
+	left: inherit;
 }
 
 input:focus, textarea:focus {

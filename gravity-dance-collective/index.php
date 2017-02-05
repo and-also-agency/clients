@@ -1,48 +1,18 @@
 
 <!DOCTYPE html> 
 <html lang="en">
-	<head>
-		 <meta charset="utf-8">
-			<meta name="description" content="Gravity Dance Collective provides affordable dance classes and lessons for adults and children in downtown Denver.">
-		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		 <meta name="viewport" content="width=device-width, initial-scale=1">
-		 <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-		 <title>Denver Dance Classes and Lessons | Gravity Dance Collective</title>
-			<!-- Latest compiled and minified CSS -->
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
- 
-			<!-- Your personal CSS stylesheet -->
-			<link rel="stylesheet" href="style.css">
-		 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-			<!--[if lt IE 9]>
-				<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-				<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		 <![endif]-->
-		<!-- LINK TO GOOGLE FONTS -->
-		<link href="<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,400italic|Quicksand:400,700|The+Girl+Next+Door' rel='stylesheet' type='text/css'>"
-
-		<!--Google Analytics Tracking-->
-		 <script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-79689630-1', 'auto');
-		ga('send', 'pageview');
-		</script>
-		<!--End Google Analytics Tracking -->
-
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Gravity Dance Collective provides affordable dance classes and lessons for adults and children in downtown Denver.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<title>Denver Dance Classes and Lessons | Gravity Dance Collective</title>
+	<?php include ("includes/header-includes.php"); ?>
 </head>
 <body>
-	<!-- NAV -->
-	<header>
-		<?php include ("includes/navigation.php"); ?>
-	</header>
-	<!--/NAV -->  
+	<?php include ("includes/navigation.php"); ?>  
 
-<!--WEB PAGE CONTENT HERE --> 
 		 <div style="min-height: 50px;">
 				<!-- Jssor Slider Begin -->
 				<!-- To move inline styles to css file/block, please specify a class name for each element. --> 
