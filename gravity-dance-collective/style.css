@@ -519,6 +519,11 @@ h2 a, h2 a {
 	width: auto;
 }
 
+.navbar-default .navbar-nav>li>a.nav-special {
+    font-weight: 600;
+    color: #0a7587;
+}
+
 @media (max-width : 650px) {
 	.navbar-brand {
 		margin-top: 0px !important;
@@ -726,6 +731,17 @@ div.healcode table.schedule tbody tr td {
     padding: 12px 10px;
     background: #fff;
     font-size: 14px;
+}
+
+.healcode-login-register-text-link, .healcode-login-register-text-link:hover, .healcode-login-register-text-link:visited{
+	border: 2px #0a7587 solid;
+    background-color: #0a7587;
+    padding: 5px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 15px 0;
+    color: #ffffff;
+
 }
 
 .class_info {

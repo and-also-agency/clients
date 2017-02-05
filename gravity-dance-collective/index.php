@@ -133,6 +133,11 @@
 				<div class="col-md-12">
 					<h1>Gravity Dance Collective</h1>
 					<p>COME AND GET YOUR GROOVE ON!</p>
+					<!--Healcode register pop-up link-->
+					<script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
+
+					<healcode-widget data-version="0.2" data-link-class="healcode-login-register-text-link" data-site-id="18184" data-mb-site-id="637419" data-type="account-link" data-inner-html="Register For A Class Today &raquo;"></healcode-widget>
+					<!--/Healcode register pop-up link-->
 				</div>
 				<div class="col-md-12 big-full-image-lower-band">
 					<img src="/images/home/half-logo-full-image-template.jpg" class="img-responsive" alt="Denver Dance Studio">
@@ -153,6 +158,11 @@
 					<img src="/images/home/kids-stripes-thirds-template-large.jpg" class="full-width" alt="Little Dancers in Stripes">
 					<h3>Take a Class</h3>
 					<p>Join us at the studio and try any class for free the first time!</p>
+					<!--Healcode register pop-up link-->
+					<script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
+
+					<healcode-widget data-version="0.2" data-link-class="healcode-login-register-text-link" data-site-id="18184" data-mb-site-id="637419" data-type="account-link" data-inner-html="Register For A Class &raquo;"></healcode-widget>
+					<!--/Healcode register pop-up link-->
 					<a href="schedule.php" class="button">See The Class Schedule &raquo;</a>
 				</div>
 	<!-- SOCIAL MEDIA -->

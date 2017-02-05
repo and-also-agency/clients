@@ -24,11 +24,11 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="home-link"><a href="/">Home<span class="sr-only">(current)</span></a></li>
             <li><a href="/schedule.php">Schedule</a></li>
-           <!-- <li><a href="https://www.iclassprov2.com/icpv2/parentportal/gravitydancecollective/classes" target="_blank">Registration/Portal</a></li> -->
             <li><a href="/instructors">Instructors</a></li>
             <li><a href="/photos.php">Photos</a></li>
             <li><a href="/videos.php">Videos</a></li>
             <li><a href="/contact-us.php">Contact Us</a></li>
+            <li><a class="nav-special" href="https://clients.mindbodyonline.com/classic/ws?studioid=637419&stype=-98" target="_blank">Register</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
