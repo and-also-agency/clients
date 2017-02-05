@@ -56,9 +56,60 @@ section {
 	}
 }
 
+.teen-schedule h2 {
+	margin: 30px 0 10px;
+	font-size: 200%;
+}
+
 .schedule {
 	color: #717070;
     font-size: 11pt;
+}
+
+.class-card {
+	padding: 20px;
+	background: #f3f3f3;
+	border-radius: 4px;
+	font-size: 80%;
+	box-shadow: 1px 1px 1px 0 rgba(0,0,0,.1);
+	margin: 20px;
+}
+
+.class-card p {
+	margin-bottom: 6px;
+}
+
+.class-card p:last-of-type {
+	margin-bottom: 0;
+}
+
+.class-card h3 {
+	margin-top: 0;
+	margin-bottom: 14px;
+	color: #0a7587;
+}
+
+.class-card .info-header {
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	font-size: 80%;
+}
+
+.class-card em {
+	font-size: 90%;
+}
+
+@media (max-width : 991px) {
+	.class-card {
+		margin: 20px 0;
+	}
+}
+
+@media (max-width : 767px) {
+	.class-card {
+		margin: 30px 0;
+	}
 }
 
 .schedule-header {
