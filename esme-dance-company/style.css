@@ -1,0 +1,436 @@
+/* CSS STYLES FOR ESME SITE */
+
+/* GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700italic,700|Dawning+of+a+New+Day|Lovers+Quarrel);
+
+
+/*------=structure------*/
+
+div {
+	display: block;
+}
+
+body {
+    color: #666666;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 16pt; 
+}
+
+header {
+	height: 7%;
+	background-color: #fff;
+	color: #333333;
+}
+
+#content {
+	padding-top: 3.16%;
+	min-height: 21.05%;
+}
+
+em {
+	font-style: italic;
+	font-size: 70%;
+}
+
+
+/*--footer--*/
+
+footer {
+	color: #fff;
+	background-color: #660066;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 70%;
+	text-align: center;
+}
+
+#footer a:link { 
+  color: #fff;
+}
+
+#footer a:hover {
+   color: yellow;
+}
+
+#footer a:visited {
+  color: #f7f7f7;
+}
+
+/* OTHER CSS */
+
+#logo {
+	width: 30%;  
+	position: relative;
+	margin: 1% 0% 0% 2%;
+	height: auto;
+	display: inline;
+}
+
+.call-out-text {
+	color: #660066;
+    font-family:'Josefin Sans', sans-serif;
+    margin-top: 15%;
+    padding-top: 0px;
+    font-size: 125%;
+    font-style: bold;
+}
+
+header h1 {
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 350%;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h1 {
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	font-weight: 400%;
+	display: block;
+	font-size: 350%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+@media (max-width : 650px) {
+h1, h1.center {
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	display: block;
+	font-size: 250%;
+	margin-top: 30px;
+	margin-bottom: 30px; 
+}
+}
+
+
+h2 {
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	font-weight: 400%;
+	font-size: 250%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+@media (max-width : 650px) {
+h2 {
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	display: block;
+	font-size: 150%;
+	margin-top: 30px;
+	margin-bottom: 30px; 
+}
+}
+
+h3 {
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	font-weight: 450%;
+	font-size: 150%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h4 {
+	color: #fff;
+    font-family:'Josefin Sans', sans-serif;
+    margin-top: 5%;
+    padding-top: 5%;
+    font-size: 87.5%;
+    font-size: 100%;
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/*--Columns and wrappers--*/
+
+.center {
+	text-align: center;
+}
+
+.big-color-band {
+	display: block;
+	position: relative;
+	height: 10%;
+	background-color: #660066;
+	border: .05em solid  #666666;
+}
+
+hr {
+	display: block;
+	height: 3%;
+	color: purple;
+	border: none;
+	margin: 3% 0% 3% 0%;
+    -webkit-margin-before: 4em;
+    -webkit-margin-after: 4em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: .2%;
+}
+
+
+.blank {
+	visibility: hidden;
+	display: block;
+	height: 3%;
+	color: #fff;
+	border: none;
+	margin: 3% 0% 3% 0%;
+    -webkit-margin-before: 4em;
+    -webkit-margin-after: 4em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: .2%;
+}
+
+
+div .row {
+	display: block;
+}
+
+
+ 
+
+  .full-width {
+  	width: 100%;
+  }
+
+
+  .big-full-image {
+	position: relative;
+	min-width: 100%;
+	display: block;
+	padding: 0%;
+	border-top: .2em #666666 solid;
+	border-bottom: .2em #666666 solid;
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+}
+
+
+@media (max-width : 640px) {
+.big-full-image, .big-full-image img {
+	max-height: 300px;
+	min-height: 250px !important; 
+	width: auto;
+	height: cover;
+	background-size: cover;
+	position: center;
+	overflow: hidden;
+	display: relative;
+	border-top: none;
+	border-bottom: none;
+	margin-top: 0px;
+}
+}
+
+
+ 
+/* -- Clearfix -- */
+  .row:before,
+  .row:after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+
+
+/*--Button--*/
+.button {
+	color: purple;
+	border: .1em purple solid;
+	background-color: #f7f7f7;
+	padding: 1% 5%;
+	border-radius: .1em;
+}
+
+
+img {
+	width: 100%;
+
+}
+
+@media (max-width : 640px) {
+img {
+	margin-top: 30px;
+}
+}
+
+
+.social {
+	width: 20%;
+	float: left;
+}
+
+
+.copyright {
+	color: #fff;
+	margin-top: 5%;
+}
+
+
+/*------links------*/
+a:link { 
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #33cccc;
+}
+
+a:active {
+  color: orange;
+}
+h1 a, h2 a:link {
+	text-decoration: none;
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	font-weight: 300px;
+	display: block;
+	font-size: 400%;
+}
+
+h2 a, h2 a:link {
+	text-decoration: none;
+	color: #660066;
+	font-family: 'Dawning of a New Day', cursive;
+	font-weight: 300px;
+	display: block;
+	height: auto;
+	font-size: 300%;
+}
+
+
+/* ----- =navstructure ----- */
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+  }
+ 
+/* ----- =navigation ----- */
+#top-nav {
+   float: right;
+   min-width: 20%;
+   color: gray;
+}
+#top-nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+#top-nav ul li {
+  float: left;
+  display: block;
+  padding: 17px 15px 12px 15px;
+}
+#top-nav ul li a {
+   font-size: 18px;
+   color: #ffffff;
+   text-decoration:none; 
+}
+#top-nav ul li a:hover {
+   color: #33cccc;
+}
+
+#top-nav a:link { 
+  color: gray;
+}
+
+#top-nav a:active {
+	color: gray;
+}
+
+#top-nav a:visited {
+	color: gray;
+}
+
+.navbar-brand {
+    float: top;
+	width: 250px;
+	padding: 15px 15px;
+    font-size: 18px;
+    line-height: 80px;
+}
+
+@media (max-width : 650px) {
+.navbar-brand {
+	margin-top: 0px !important;
+}
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+
+    /*--- VIDEO---*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+}
+ iframe, 
+ object,
+ embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+form p {
+  color: #666666;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+input[type=submit],
+input[type=reset] {
+  width: 60px;
+  float: right;
+  color: #660066;
+  background-color: #fff;
+}
+
+
+.image-button {
+	width: 175px;
+	float: right;
+	margin-left: 15px;
+}
+
+.textlanding {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.clear-button {
+	margin-top: 62px;
+}
